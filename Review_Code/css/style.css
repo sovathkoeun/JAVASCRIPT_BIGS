@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: wheat;
+}
+.container{
+    margin-top: 200px;
+    text-align: center;
+}
+.box-header{
+    padding: 15px;
+}
+.box-bottom{
+   margin: 10px;
+}
+input{
+    width:40%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    width:7%;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+li{
+    
+}
+.box-content{
+  
+}

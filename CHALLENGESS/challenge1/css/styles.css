@@ -1,0 +1,19 @@
+
+body {
+  background: #060AB2;
+  height: 100vh;
+}
+/* .memory-card {
+  display: flex;
+  padding: 9px;
+} */
+img {
+  width: 100px;
+  padding: 5px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  /*  */
+  box-sizing: border-box;
+}

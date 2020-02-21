@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-firestore.js"></script>
+  
+    <title> Firebase</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header text-center">Add New </div>
+                        <div class="card-body">
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" placeholder="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="age">Age:</label>
+                                <input type="number" class="form-control" id="age" placeholder="number Age">
+                            </div>
+                            <button class="btn btn-success btn-block" type="button">Add New</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="card  shadow-lg">
+                    <div class="card-header">Add Action</div>
+                        <div class="card-body">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Age</th>
+                                    <th>Action</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="alert alert-danger">Table</div>
+                </div>
+            </div>
+        </div>
+
+<script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-analytics.js"></script>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyAvGLHCg3l15HayNAUHIvX7ZyaBJtZ2sHQ",
+    authDomain: "learnfirebase-ff900.firebaseapp.com",
+    databaseURL: "https://learnfirebase-ff900.firebaseio.com",
+    projectId: "learnfirebase-ff900",
+    storageBucket: "learnfirebase-ff900.appspot.com",
+    messagingSenderId: "919767979012",
+    appId: "1:919767979012:web:da4fbdf23ef6b2089c9151",
+    measurementId: "G-8VGFP8H1B9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  // key word
+  var database = firebase.firestore();
+</script>
+    <script src="js/firebase.js"></script>
+</body>
+</html>

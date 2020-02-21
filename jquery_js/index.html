@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>jquery</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <form action="">
+                    <div class="card">
+                        <div class="card-header text-center">Login</div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="form-group">Text</label>
+                                <input type="text" name="text" id="text" class="form-control" placeholder="Text">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-group">Password</label>
+                                <input type="password" id="pass" class="form-control" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-group">Email</label>
+                                <input type="email" id="mail" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-inline"></label>
+                                <input type="radio" name="gender" class="gender" value="Male">Male
+                                <input type="radio" name="gender" class="gender" value="Female">Female
+                                <input type="radio" name="gender" class="gender" value="Other">Other
+                            </div>
+                            <div class="form-group">
+                                <label for="form-inline"></label>
+                                <input type="checkbox" name="box" class="box" value="PNC">PNC
+                                <input type="checkbox" name="box" class="box" value="PNV">PNV
+                                <input type="checkbox" name="box" class="box" value="PNP">PNP
+                            </div>
+                            <div class="form-group">
+                                <label for="form-inline"></label>
+                                <select id="select">
+                                    <option value="selection">selection....</option>
+                                    <option value="java">java</option>
+                                    <option value="javaframework">javaframework</option>
+                                    <option value="designer">Designer</option>
+                                    <option value="bootstrap">Bootstrap</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="alert alert-success"></div>
+                    <div class="alert alert-warning"></div>
+                    <div class="alert alert-danger"></div>
+                    <div class="alert alert-secondary"></div>
+                    <div class="alert alert-primary"></div>
+                    <div class="alert alert-info"></div>
+                </form>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
